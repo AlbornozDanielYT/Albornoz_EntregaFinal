@@ -1,0 +1,40 @@
+.TaskForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.TaskInput {
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 10px 0 0px 10px;
+    border: none;
+    
+    }
+
+    .TaskButton {
+        padding: 16px;
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        border: none;
+        border-radius: 0 10px 10px 0;
+        cursor: pointer;
+        outline: none;
+        background-color: #667eea;
+        color: white;
+        text-transform: capitalize;
+        transition: background-color 0.4s ease-in-out;
+        transition: box-shadow 0.4s ease-in-out;
+        
+    }
+
+    .TaskButton:hover {
+        box-shadow: 0px 8px 16px 0 #2f345260;
+        background-color: #365afe;
+    }
+
+
+    

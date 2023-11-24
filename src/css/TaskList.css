@@ -1,0 +1,24 @@
+.TaskListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.TaskItem:nth-child(3n + 1) {
+    background-color: #bbc4fc;
+}
+
+.TaskItem:nth-child(3n + 2) {
+    background-color: #a0abf5;
+}
+
+.TaskItem:nth-child(3n + 3) {
+    background-color: #8998fd;
+}
+
+.TaskItem:nth-child(3n + 3) {
+    background-color: #8998fd;
+}
+
+
